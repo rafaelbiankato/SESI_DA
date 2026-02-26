@@ -36,3 +36,55 @@ border-radius: 100%;
     font-size: 20px;
     padding-left: 30px;
 }
+.grupo-card{
+ display: flex;
+ justify-content: center;
+ margin-top: 70px;
+}
+
+.card{
+    width: 219px;
+    height: 264px;
+    border-radius: 20px;
+    margin: 0px 50px 0px 50px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.card p{
+    color: white;
+    font-size: 40px;
+    margin: 200px 0px 0px 20px;
+}
+
+.banner{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.card-banner{
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-esquerdo{
+
+}
+.card-direito{
+    background-image: url('./img/cat.png');
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    width: 50%;
+    border-radius: 40px;    
+}
