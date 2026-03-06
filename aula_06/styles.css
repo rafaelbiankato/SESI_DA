@@ -1,139 +1,243 @@
     body {
         margin: 0px;
     }
+
+    .menu {
+        height: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        padding: 10px;
+    }
+
+    .menu img {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .menu p {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .campo-pesquisa {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .campo-pesquisa input {
+        height: 60px;
+        width: 50%;
+        border-radius: 50px;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    .grupo-card {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .card {
+        width: 219px;
+        height: 264px;
+        border-radius: 20px;
+        margin: 0px 50px 0px 50px;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .card p {
+        color: white;
+        font-size: 40px;
+        margin: 200px 0px 0px 20px;
+    }
+
+    .banner {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .card-banner {
+        height: 320px;
+        width: 60%;
+        background-color: white;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .card-esquerdo {}
+
+    .card-esquerdo p {
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .card-esquerdo button {
+        width: 100%;
+        height: 50px;
+        border-radius: 50px;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .card-direito {
+        background-image: url('./img/cat2.png');
+        background-size: cover;
+        background-position: center;
+        height: 80%;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    .grupo-dicas {
+        display: flex;
+        width: 100%;
+        margin-top: 100px;
+
+    }
+
+    .dicas {
+        width: 50%;
+        padding: 50px;
+    }
+
+    .grupo-dicas img {
+        width: 50%;
+        padding: 50px;
+        border-radius: 100px;
+    }
+
+    .dicas h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .dicas h2 {
+        font-size: 30px;
+        font-weight: 30px;
+        color: gray
+    }
+
+    .dicas p {
+        font-size: 30px;
+        color: gray
+    }
+
+    .rodape {
+        background-color: black;
+        padding: 20px;
+
+
+    }
+
+    .titulo {
+        margin-top: 50px;
+        color: white;
+        font-size: 3-px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .campo-email {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+
+    }
+
+    .campo-email input {
+        height: 100%;
+        width: 385px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        padding-left: 10px;
+    }
+
+    .campo-email button {
+        background-color: orange;
+        width: 230px;
+        margin-left: 20px;
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 10px;
+    }
+
+    .menu-rodape {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .menu-rodape p{
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .menu-rodape ul {
+        display: flex;
+        list-style-type: none;
+        font-weight: bold;
+        font-size: 25px;
+        
+
+    }
+    .menu-rodape li{
+        margin-left: 15px;
+        cursor: pointer;
+    }
     
-    .menu{
-    height: 100px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    padding: 10px;
-}
+    #selecionado{
+        color: wheat;
+    }
 
-.menu img{
-width: 100px;
-height: 100px;
-border-radius: 100%;
-}
+    .rodape hr{
+        margin-top: -25px;
+    }
 
-.menu p {
-    font-size: 40px;
-    font-weight: bold;
-    text-transform: uppercase;
-}   
-.campo-pesquisa{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
+    .rede-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+    }
 
-.campo-pesquisa input{
-    height: 60px;
-    width: 50%;
-    border-radius: 50px;
-    font-size: 20px;
-    padding-left: 30px;
-}
-.grupo-card{
- display: flex;
- justify-content: center;
- margin-top: 70px;
-}
+    
 
-.card{
-    width: 219px;
-    height: 264px;
-    border-radius: 20px;
-    margin: 0px 50px 0px 50px;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-}
+    .item-social{
+        width: 100px;
+        height: 100px;
+        background-color: wheat;
+        border-radius: 100%;
+        margin: 10px;
+        fill: white;
+        padding: 10px;
+    }
 
-.card p{
-    color: white;
-    font-size: 40px;
-    margin: 200px 0px 0px 20px;
-}
-
-.banner{
-    height: 500px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 70px;   
-}
-
-.card-banner{
-    height: 320px;
-    width: 60%;
-    background-color: white;
-    border-radius: 40px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.card-esquerdo{
-
-}
-.card-esquerdo p{
-    font-size: 37px;
-    font-weight: bold;
-}
-
-.card-esquerdo button{
-    width: 100%;
-    height: 50px;
-    border-radius: 50px;
-    background-color: black;
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.card-direito{
-    background-image: url('./img/cat2.png');
-    background-size: cover;
-    background-position: center;
-    height: 80%;
-    width: 50%;
-    border-radius: 5px;    
-}
-
-.grupo-dicas{
-    display: flex;
-    width: 100%;
-    margin-top: 100px;
-
-}
-
-.dicas{
-    width: 50%;
-    padding: 50px;
-}
-
-.grupo-dicas img{
-    width: 50%;
-    padding: 50px;
-}
-
-.dicas h1{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.dicas h2{
-    font-size: 30px;
-    font-weight: 30px;
-    color: gray
-}
-
-.dicas p{
-    font-size: 30px;
-    color: gray
-}
