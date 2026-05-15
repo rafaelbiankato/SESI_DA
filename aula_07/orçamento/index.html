@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Padaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Padaria</h1>
+
+        <h2>Monte seu orçamento</h2>
+
+        <div class="produto">
+            <label>Pão Francês(R$ 1,00)</label>
+            <input type="number" id="pao" min="0" value="0">
+        </div>
+
+        <div class="produto">
+            <label>Bolo (R$ 15,00)</label>
+            <input type="number" id="bolo" min="0" value="0">
+        </div>
+
+        <div class="produto">
+            <label>Café (R$ 5,00)</label>
+            <input type="number" id="cafe" min="0" value="0">
+        </div>
+
+        <button onclick="calcular()">Calcular Total</button>
+
+        <h2 id="resultado">Total: R$ 0,00</h2>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
